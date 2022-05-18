@@ -70,3 +70,5 @@
 ### :fire: My GitHub Stats :
 
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=AlanTeeWeiLoon&theme=dark&background=000000)](https://github.com/AlanTeeWeiLoon)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AlanTeeWeiLoon&layout=compact&theme=vision-friendly-dark)](https://github.com/AlanTeeWeiLoon)
