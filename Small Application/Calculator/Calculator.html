@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Calculator.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="Kevin.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+        <div class="container">
+            <div class="content">
+                <div class="calculator-form">
+    <form name="form" class="form" id="calculator-form">
+                <h2>Calculator</h2>
+                <div class="form-row">
+                            <div class="form-group">
+                                <label for="FirstNumber">First Number :</label>
+                                <input type="number" name="txtFirstNumber" required/>
+                            </div>
+                            <div class="form-group">
+                                <label for="SecondNumber">Second Number :</label>
+                                <input type="number" name="txtSecondNumber" required/>
+                            </div>
+                        </div>
+        <div class="form-row">
+        <input type="button" value="Add" class="submit" name="Add" id="calculation"  onclick="Addition();Maximum();"/>
+            <input class="submit" name="Subtract" id="calculation" type="button" value="Subtract"
+                                    onclick="Subtraction();Maximum();">
+            <input class="submit" name="Multiply" id="calculation" type="button" value="Multiply"
+                                    onclick="Multiplication();Maximum();">
+            <input class="submit" name="Divide" id="calculation" type="button" value="Divide" onclick="Division();Maximum();">
+            </div>
+        <br>
+        <div class="form-group">
+                            <label for="MaxNum">Maximum Number :</label>
+                            <input type="text" name="maxnum" readonly/>
+                        </div>
+        <div class="form-group">
+                            <label for="MaxNum">Answer :</label>
+                            <input type="text" name="answer" readonly/>
+                        </div>
+    </form>
+                    </div>
+            </div>
+        </div>
+</body>
+
+<script type="text/javascript">
+    function Addition() {
+        var FirstNumber = document.form.txtFirstNumber.value;
+        var SecondNumber = document.form.txtSecondNumber.value;
+        try {
+
+            if (!FirstNumber) {
+                alert("Please enter first number");
+            }
+            else if (!SecondNumber) {
+                alert("Please enter second number");
+            }
+            else {
+                var sum = Number(FirstNumber) + Number(SecondNumber);
+                document.form.answer.value = sum;
+            }
+        }
+        catch (err) {
+            document.form.answer.value = err.message;
+        }
+
+    }
+
+    function Subtraction() {
+        var FirstNumber = document.form.txtFirstNumber.value;
+        var SecondNumber = document.form.txtSecondNumber.value;
+        try {
+
+            if (!FirstNumber) {
+                alert("Please enter first number");
+            }
+            else if (!SecondNumber) {
+                alert("Please enter second number");
+            }
+            else {
+                var min = Number(FirstNumber) - Number(SecondNumber);
+                document.form.answer.value = min;
+            }
+        }
+        catch (err) {
+            document.form.answer.value = err.message;
+        }
+
+    }
+    function Multiplication() {
+        var FirstNumber = document.form.txtFirstNumber.value;
+        var SecondNumber = document.form.txtSecondNumber.value;
+        try {
+
+            if (!FirstNumber) {
+                alert("Please enter first number");
+            }
+            else if (!SecondNumber) {
+                alert("Please enter second number");
+            }
+            else {
+                var mul = Number(FirstNumber) * Number(SecondNumber);
+                document.form.answer.value = mul;
+            }
+        }
+        catch (err) {
+            document.form.answer.value = err.message;
+        }
+    }
+    function Division() {
+        var FirstNumber = document.form.txtFirstNumber.value;
+        var SecondNumber = document.form.txtSecondNumber.value;
+        try {
+
+            if (!FirstNumber) {
+                alert("Please enter first number");
+            }
+            else if (!SecondNumber) {
+                alert("Please enter second number");
+            }
+            else {
+                var div = Number(FirstNumber) / Number(SecondNumber);
+                document.form.answer.value = div;
+            }
+        }
+        catch (err) {
+            document.form.answer.value = err.message;
+        }
+    }
+
+    function Maximum() {
+
+        var FirstNumber = document.form.txtFirstNumber.value;
+        var SecondNumber = document.form.txtSecondNumber.value;
+        var max = 0;
+
+        try {
+            max = Number(FirstNumber) - Number(SecondNumber);
+            if (max > 0) {
+                document.form.maxnum.value = FirstNumber;
+            }
+            else if (max < 0) {
+                document.form.maxnum.value = SecondNumber;
+            }
+            else {
+                document.form.maxnum.value = "Both are same!"
+            }
+        }
+
+        catch (err) {
+            document.form.maxnum.value = err.message;
+        }
+
+    }
+
+</script>
