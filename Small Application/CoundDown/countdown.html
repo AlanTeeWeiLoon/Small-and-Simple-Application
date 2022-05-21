@@ -1,0 +1,36 @@
+<!doctype html> 
+<html>
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <title>Countdown</title>
+    <script src="countdown.js"></script>
+</head> 
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="countdown-form">
+                <form name="form" class="form" id="countdown-form">
+                    <h2>Countdown Timer</h2>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="timeMinute">Input the time in minutes and click start :</label>
+                            <input type="number" name="timeMinute" id="timeMinute" required />
+                            <input type="button" value="Start" class="submit" name="Start" id="Start"
+                            onclick="startCounter();" />
+
+                            <h2 id="time">0:00</h2>
+
+                            <input type="button" value="Reset" class="submit" name="Reset" id="Reset"
+                            onclick="reset();" />
+                        </div>
+                        <div class="form-group">
+                            <label for="SecondNumber">Second Number :</label>
+                            <input type="number" name="txtSecondNumber" required />
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
