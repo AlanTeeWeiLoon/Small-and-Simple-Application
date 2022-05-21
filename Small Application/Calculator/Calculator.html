@@ -9,48 +9,49 @@
     <title>Calculator</title>
     <link rel="stylesheet" href="Calculator.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="Kevin.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-        <div class="container">
-            <div class="content">
-                <div class="calculator-form">
-    <form name="form" class="form" id="calculator-form">
-                <h2>Calculator</h2>
-                <div class="form-row">
-                            <div class="form-group">
-                                <label for="FirstNumber">First Number :</label>
-                                <input type="number" name="txtFirstNumber" required/>
-                            </div>
-                            <div class="form-group">
-                                <label for="SecondNumber">Second Number :</label>
-                                <input type="number" name="txtSecondNumber" required/>
-                            </div>
+    <div class="container">
+        <div class="content">
+            <div class="calculator-form">
+                <form name="form" class="form" id="calculator-form">
+                    <h2>Calculator</h2>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="FirstNumber">First Number :</label>
+                            <input type="number" name="txtFirstNumber" required />
                         </div>
-        <div class="form-row">
-        <input type="button" value="Add" class="submit" name="Add" id="calculation"  onclick="Addition();Maximum();"/>
-            <input class="submit" name="Subtract" id="calculation" type="button" value="Subtract"
-                                    onclick="Subtraction();Maximum();">
-            <input class="submit" name="Multiply" id="calculation" type="button" value="Multiply"
-                                    onclick="Multiplication();Maximum();">
-            <input class="submit" name="Divide" id="calculation" type="button" value="Divide" onclick="Division();Maximum();">
-            </div>
-        <br>
-        <div class="form-group">
-                            <label for="MaxNum">Maximum Number :</label>
-                            <input type="text" name="maxnum" readonly/>
+                        <div class="form-group">
+                            <label for="SecondNumber">Second Number :</label>
+                            <input type="number" name="txtSecondNumber" required />
                         </div>
-        <div class="form-group">
-                            <label for="MaxNum">Answer :</label>
-                            <input type="text" name="answer" readonly/>
-                        </div>
-    </form>
                     </div>
+                    <div class="form-row">
+                        <input type="button" value="Add" class="submit" name="Add" id="calculation"
+                            onclick="Addition();Maximum();" />
+                        <input class="submit" name="Subtract" id="calculation" type="button" value="Subtract"
+                            onclick="Subtraction();Maximum();">
+                        <input class="submit" name="Multiply" id="calculation" type="button" value="Multiply"
+                            onclick="Multiplication();Maximum();">
+                        <input class="submit" name="Divide" id="calculation" type="button" value="Divide"
+                            onclick="Division();Maximum();">
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label for="MaxNum">Maximum Number :</label>
+                        <input type="text" name="maxnum" readonly />
+                    </div>
+                    <div class="form-group">
+                        <label for="MaxNum">Answer :</label>
+                        <input type="text" name="answer" readonly />
+                    </div>
+                </form>
             </div>
         </div>
+    </div>
 </body>
 
 <script type="text/javascript">
