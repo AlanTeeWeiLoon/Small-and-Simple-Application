@@ -2,10 +2,14 @@ var mySeconds;
 var intervalHandle;
 
 function reset(){
+	mySeconds = 0;
+	clearInterval(intervalHandle);
+	console.log("123")
 	document.getElementById("timeMinute").style.display="block";
     document.getElementById("timeMinute").value=0;	
-    document.getElementById("time").value=0;
-    clearInterval(intervalHandle);
+    document.getElementById("time").innerHTML="0:00";
+    
+	
 	
 	
 }
