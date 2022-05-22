@@ -1,3 +1,3 @@
 Simple Calculator with HTML and JavaScript!
 
-<img src="https://github.com/AlanTeeWeiLoon/Small-and-Simple-Application/blob/main/Small%20Application/Calculator/Image/Calculator.png" />
+<img src="https://github.com/AlanTeeWeiLoon/Small-and-Simple-Application/blob/main/Small%20Applications%20(HTML%20and%20JavaScripts)/Calculator/Image/Calculator.png" />
