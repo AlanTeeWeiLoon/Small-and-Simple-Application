@@ -1,0 +1,19 @@
+C:\Users\candidate\Desktop\15-06-2022-teeweiloon\Question2\Question2\bin\Debug\Question2.exe.config
+C:\Users\candidate\Desktop\15-06-2022-teeweiloon\Question2\Question2\bin\Debug\Question2.exe
+C:\Users\candidate\Desktop\15-06-2022-teeweiloon\Question2\Question2\bin\Debug\Question2.pdb
+C:\Users\candidate\Desktop\15-06-2022-teeweiloon\Question2\Question2\obj\Debug\Question2.csprojResolveAssemblyReference.cache
+C:\Users\candidate\Desktop\15-06-2022-teeweiloon\Question2\Question2\obj\Debug\Question2.exe
+C:\Users\candidate\Desktop\15-06-2022-teeweiloon\Question2\Question2\obj\Debug\Question2.pdb
+C:\Share\Candidates test done\DEV - for marking\15-06-2022-teeweiloon\Question2\Question2\bin\Debug\Question2.exe.config
+C:\Share\Candidates test done\DEV - for marking\15-06-2022-teeweiloon\Question2\Question2\obj\Debug\Question2.exe
+C:\Share\Candidates test done\DEV - for marking\15-06-2022-teeweiloon\Question2\Question2\obj\Debug\Question2.pdb
+C:\Share\Candidates test done\DEV - for marking\15-06-2022-teeweiloon\Question2\Question2\bin\Debug\Question2.exe
+C:\Share\Candidates test done\DEV - for marking\15-06-2022-teeweiloon\Question2\Question2\bin\Debug\Question2.pdb
+C:\Share\Candidates test done\DEV - for marking\15-06-2022-teeweiloon\Question2\Question2\obj\Debug\Question2.csprojResolveAssemblyReference.cache
+C:\Users\Alan\OneDrive\Desktop\Question2 weiloon\Question2\Question2\bin\Debug\Question2.exe.config
+C:\Users\Alan\OneDrive\Desktop\Question2 weiloon\Question2\Question2\bin\Debug\Question2.exe
+C:\Users\Alan\OneDrive\Desktop\Question2 weiloon\Question2\Question2\bin\Debug\Question2.pdb
+C:\Users\Alan\OneDrive\Desktop\Question2 weiloon\Question2\Question2\obj\Debug\Question2.csprojAssemblyReference.cache
+C:\Users\Alan\OneDrive\Desktop\Question2 weiloon\Question2\Question2\obj\Debug\Question2.csproj.CoreCompileInputs.cache
+C:\Users\Alan\OneDrive\Desktop\Question2 weiloon\Question2\Question2\obj\Debug\Question2.exe
+C:\Users\Alan\OneDrive\Desktop\Question2 weiloon\Question2\Question2\obj\Debug\Question2.pdb
